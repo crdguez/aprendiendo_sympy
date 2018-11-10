@@ -1,2 +1,4 @@
 # learning_sympy
-Learning SymPy
+
+
+Aprendiedno sympy

@@ -19,6 +19,24 @@ init_printing(use_latex=False)
 
 ## Resolviendo inecuaciones
 
+#### Inecuaciones de primer grado
+
+Son las más sencillas de resolver. Solo hay que resolverlas como si fueran ecuaciones de primer grado pero con las reglas de equivalencia correspondientes: multiplicar ambos miembros de la inecuación por un número negativo invierte el sentido de la inecuación. Ídem para la división puesto que no es más que multiplicar por el inverso.
+
+#### polinómicas de grado mayor que dos
+
+Se descompone el polinomio en factores. Se estudia el signo de cada uno para determinar el signo del producto.
+
+### Inecuaciones con fracciones algebraicas
+
+Se pueden reducir a una del siguiente tipo o similar:
+$$\frac{P(x)}{Q(x)} \leq 0$$
+
+Su resolución se reduce a estudiar el signo del numerador y del denominador para estudiar el cociente.
+
+
+
+
 ### Inecuaciones con  valores absolutos
 Para poder resolver inecuaciones con valores absolutos hay que utilizar la función *reduce_abs_inequality*.
 
@@ -64,4 +82,3 @@ reduce_abs_inequality(Abs(x-2)-1,'<=',x).as_set()
 
 
  *   [Documentación de SymPy](https://docs.sympy.org/latest/index.html#)
-

@@ -21,6 +21,10 @@ init_printing(use_latex=False)
 
 #### Inecuaciones de primer grado
 
+Se pueden reducir a una del siguiente tipo o similar:
+
+$$ax+b \leq 0$$
+
 Son las más sencillas de resolver. Solo hay que resolverlas como si fueran ecuaciones de primer grado pero con las reglas de equivalencia correspondientes: multiplicar ambos miembros de la inecuación por un número negativo invierte el sentido de la inecuación. Ídem para la división puesto que no es más que multiplicar por el inverso.
 
 #### polinómicas de grado mayor que dos

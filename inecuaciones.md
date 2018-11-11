@@ -38,6 +38,12 @@ $$\frac{P(x)}{Q(x)} \leq 0$$
 
 Su resolución se reduce a estudiar el signo del numerador y del denominador para estudiar el cociente.
 
+### Sistemas de inecuaciones con una incognita
+
+Las soluciones son los valores de la incógnita que cumplen ambas inecuaciones. Por tanto la solución será la intersección de las soluciones de las inecuaciones
+
+### Sistemas de inecuaciones con dos incognitas
+
 
 
 

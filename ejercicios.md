@@ -11,4 +11,14 @@ $\left\{\begin{matrix}x\\y\end{matrix}\right.$
 
 $x-3-32+x-3+x-3+32<100$         
 
- 
+| Tareas | L | M | X | J | V |
+|--------|---|---|---|---|---|
+| Vestirse a tiempo | | | | | |
+| Recoger el pijama | | | | | |
+| Revisar mochila | | | | | |
+| Ropa recogida | | | | | |
+| Deberes del colegio | | | | | |
+| Poner y quitar la mesa | | | | | |
+| Ordenar salón y recoger juguetes | | | | | |
+| Salir de la ducha a tiempo | | | | | |
+| Vestirse a tiempo | | | | | |

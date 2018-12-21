@@ -8,5 +8,5 @@ SymPy es una librería de Python para matemáticas simbólica.
 
 ### Acceso a la documentación:
 
-* [Índice](./00.introduccio.ipynb)
+* [Índice](./00.introduccion.ipynb)
 

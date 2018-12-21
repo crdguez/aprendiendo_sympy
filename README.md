@@ -10,3 +10,6 @@ SymPy es una librería de Python para matemáticas simbólica.
 
 * [Inecuaciones](./inecuaciones.ipynb)
 
+* [Geometría](geometria.ipynb)
+* [Tips](tips.ipynb)
+

@@ -6,10 +6,7 @@ Aprendiendo SymPy es una colección de jupyter notebooks explicando cómo usar S
 SymPy es una librería de Python para matemáticas simbólica.
 
 
-### Índice:
+### Acceso a la documentación:
 
-* [Inecuaciones](./inecuaciones.ipynb)
-
-* [Geometría](geometria.ipynb)
-* [Tips](tips.ipynb)
+* [Índice](./00.introduccio.ipynb)
 

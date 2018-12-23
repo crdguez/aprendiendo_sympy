@@ -5,6 +5,14 @@ Aprendiendo SymPy es una colección de jupyter notebooks explicando cómo usar S
 
 SymPy es una librería de Python para matemáticas simbólica.
 
-### Acceso a la documentación:
+Para consultar la documentación recomiendo usar nbviewer:
+
+### Documentación vía nbviewer:
 
 * [Documentación](http://nbviewer.jupyter.org/github/crdguez/aprendiendo_sympy/blob/master/00.introduccion.ipynb)
+
+**NOTA:** En el encabezado de cada página *notebook* tienes un ícono para abrir una copia del en [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb). Esto te permitirá hacer pruebas con tus propios datos, y si quieres te lo puedes guardar en tu cuenta de Google. 
+
+## Licencia
+
+<img src="img/attribution-share-alike-creative-commons-license.png" align="center" style="padding-right:0px" width="20%">

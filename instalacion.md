@@ -17,3 +17,13 @@ Por ejemplo en GNU-Linux ejecutaremos el instalador:
 ```
 $ sh Anaconda3-2018.12-Linux-x86.sh
 ```
+
+Al ejecutarlo nos pedirá, en primer lugar, que aceptemos la licencia:
+
+<img src="./img/anaconda_1.png" width="600%">
+
+Con la barra espaciadora podremos ir pasando las páginas de la licencia hasta llegar al final que nos pedirá aceptarla. Para ello deberemos escibir yes:
+
+<img src="./img/anaconda_2.png" width="600%">
+
+El resto de opciones, se pudene modificar o dejarlas por defecto pulsando ENTER.

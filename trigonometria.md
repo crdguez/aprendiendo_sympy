@@ -13,11 +13,69 @@ Las funciones que permiten pasar de grados a radianes y viceversa son:
 
 ### Seno
 
+Se utiliza la función *sin()*
+
+#### Ejemplo
+
 $\sin(\frac{\pi}{6})=\frac{1}{2}$
+
+En simpy:
+
+```
+sin(pi/6)
+```
+
+$\sin(30)=\frac{1}{2}$
+
+En simpy:
+
+```
+sin(rad(30))
+```
 
 ### Coseno
 
+Se utiliza la función *cos()*
+
+#### Ejemplo
+
+$\cos(\frac{\pi}{3})=\frac{1}{2}$
+
+En simpy:
+
+```
+cos(pi/3)
+```
+
+$\cos(60)=\frac{1}{2}$
+
+En simpy:
+
+```
+cos(rad(60))
+```
+
 ### Tangente
+
+Se utiliza la función *tan()*
+
+#### Ejemplo
+
+$\tan(\frac{\pi}{4})=1$
+
+En simpy:
+
+```
+tan(pi/4)
+```
+
+$\tan(45)=1$
+
+En simpy:
+
+```
+tan(rad(45))
+```
 
 ### Secante
 

@@ -29,7 +29,7 @@ init_printing(use_latex=False)
 
 ## Medidas de ángulos
 
-Por defecto, las funciones de simpy trabajan en radianes. Por tanto es necesario pasar el ángulo a operar en radianes. 
+Por defecto, las funciones de SymPy trabajan en radianes. Por tanto es necesario pasar el ángulo a operar en radianes. 
 
 Las funciones que permiten pasar de grados a radianes y viceversa son:
 
@@ -38,17 +38,19 @@ Las funciones que permiten pasar de grados a radianes y viceversa son:
 
 ### Ejemplos
 
+
+
 ## Funciones trigonométricas
 
 ### Seno
 
 Se utiliza la función *sin()*
 
-#### Ejemplo
+#### Ejemplos
 
-$\sin(\frac{\pi}{6})=\frac{1}{2}$
+* Calcula el $\sin(\frac{\pi}{6})$
 
-En simpy:
+En SymPy:
 
 
 ```python
@@ -62,9 +64,9 @@ sin(pi/6)
 
 
 
-$\sin(30)=\frac{1}{2}$
+* Calcula el $\sin(30)$
 
-En simpy:
+En SymPy:
 
 
 ```python
@@ -82,11 +84,11 @@ sin(rad(30))
 
 Se utiliza la función *cos()*
 
-#### Ejemplo
+#### Ejemplos
 
-$\cos(\frac{\pi}{3})=\frac{1}{2}$
+* Calcula el $\cos(\frac{\pi}{3})$
 
-En simpy:
+En SymPy:
 
 
 ```python
@@ -100,9 +102,9 @@ cos(pi/3)
 
 
 
-$\cos(60)=\frac{1}{2}$
+* Calcula el $\cos(60)$
 
-En simpy:
+En SymPy:
 
 
 ```python
@@ -120,11 +122,11 @@ cos(rad(60))
 
 Se utiliza la función *tan()*
 
-#### Ejemplo
+#### Ejemplos
 
-$\tan(\frac{\pi}{4})=1$
+* Calcula la $\tan(\frac{\pi}{4})$
 
-En simpy:
+En SymPy:
 
 
 ```python
@@ -138,9 +140,9 @@ tan(pi/4)
 
 
 
-$\tan(45)=1$
+* Calcula la $\tan(45)$
 
-En simpy:
+En SymPy:
 
 
 ```python
@@ -154,25 +156,27 @@ tan(rad(45))
 
 
 
-### Secante
+### Secante, cosecante y cotangente
 
-### Cosecante
+Funcionan de la misma forma que la anteriores pero con las siguientes funciones: 
 
-### Cotangente
+* *sec()*
+* *csc()*
+* *cot()*
 
 ## Funciones trigonométricas inversas
 
-### Arcoseno
+### Arcoseno, arcocoseno, arcotangente, arcosecante, arcocosecante y arcocotangente
 
-### Arcocoseno
+Las funciones se nombran igual que las trigonométricas pero con una "a" antes:
 
-### Arcotangente
+* *asin()*
+* *acos()*
+* *atan()*
+* *asec()*
+* *acsc()*
+* *acot()*
 
-### Arcosecante
-
-### Arcocosecante
-
-### Arcocotangente
 
 
 ```python

@@ -168,6 +168,12 @@ Funcionan de la misma forma que la anteriores pero con las siguientes funciones:
 
 Calcula la $\cot(30)$
 
+```python
+cot(rad(30))
+```
+
+
+
 ## Funciones trigonométricas inversas
 
 ### Arcoseno, arcocoseno, arcotangente, arcosecante, arcocosecante y arcocotangente

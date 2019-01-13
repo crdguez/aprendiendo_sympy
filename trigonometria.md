@@ -36,7 +36,37 @@ Las funciones que permiten pasar de grados a radianes y viceversa son:
 * rad(), pasa a radianes el ángulo en grados que pasemos por parámetro
 * deg(), pasa a grados el ángulo en radianes
 
-### Ejemplos
+#### Ejemplos
+
+* Pasa a radianes los siguientes ángulos: 30º, 45º, 270ª
+
+
+
+
+```python
+rad(30),rad(45), rad(270)
+```
+
+
+
+
+    ⎛π  π  3⋅π⎞
+    ⎜─, ─, ───⎟
+    ⎝6  4   2 ⎠
+
+
+
+* Pasa a grados los siguientes ángulos en radianes: $\frac{\pi}{6}$, $\frac{\pi}{4}$, $\frac{3 \pi}{2}$ 
+
+
+```python
+deg(pi/6), deg(pi/4), deg(3*pi/2)
+```
+
+
+
+
+    (30, 45, 270)
 
 
 
@@ -168,9 +198,15 @@ Funcionan de la misma forma que la anteriores pero con las siguientes funciones:
 
 Calcula la $\cot(30)$
 
+
 ```python
 cot(rad(30))
 ```
+
+
+
+
+    √3
 
 
 
@@ -187,6 +223,21 @@ Las funciones se nombran igual que las trigonométricas pero con una "a" antes:
 * *acsc()*
 * *acot()*
 
+#### Ejemploss
+
+Calcula el $\arccos{\frac{1}{2}}$
+
+
+```python
+float(deg(acos(1/2)))
+```
+
+
+
+
+    60.0
+
+
 
 
 ```python
@@ -194,5 +245,5 @@ Las funciones se nombran igual que las trigonométricas pero con una "a" antes:
 ```
 
     [NbConvertApp] Converting notebook trigonometria.ipynb to markdown
-    [NbConvertApp] Writing 1925 bytes to trigonometria.md
+    [NbConvertApp] Writing 3115 bytes to trigonometria.md
 

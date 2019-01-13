@@ -164,6 +164,10 @@ Funcionan de la misma forma que la anteriores pero con las siguientes funciones:
 * *csc()*
 * *cot()*
 
+#### Ejemplos
+
+Calcula la $\cot(30)$
+
 ## Funciones trigonométricas inversas
 
 ### Arcoseno, arcocoseno, arcotangente, arcosecante, arcocosecante y arcocotangente

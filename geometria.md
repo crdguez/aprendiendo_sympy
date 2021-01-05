@@ -40,6 +40,137 @@ f, g, h = symbols('f g h', cls=Function)
 from sympy.geometry import Point, Line
 ```
 
+### Vectores como puntos
+
+Los vectores se definen como Puntos.
+
+**Ejemplo:** el vector $\overrightarrow{v}=(1,2)$
+
+
+```python
+v = Point(1,2)
+```
+
+* Coordenadas
+
+
+```python
+v.args
+```
+
+
+
+
+    (1, 2)
+
+
+
+* Giros
+
+
+```python
+v.rotate(pi)
+```
+
+
+
+
+    Point2D(-1, -2)
+
+
+
+* Módulo
+
+
+```python
+v.distance(Point(0,0))
+```
+
+
+
+
+    sqrt(5)
+
+
+
+### Rectas
+
+Para crear rectas necesitamos dos puntos, o un punto y una pendiente:
+
+**Ejemplo:** Recta que pasa por *A(1,3)* y *B(2,4)*
+
+
+```python
+lista = [(1,3),(2,4)]
+A, B = [Point(l) for l in lista]
+r = Line(A,B)
+pprint(Eq(r.equation(),0))
+```
+
+    -x + y - 2 = 0
+
+
+
+```python
+from sympy.plotting import plot_implicit
+
+p1 = plot_implicit(r.equation())
+
+```
+
+
+![png](geometria_files/geometria_17_0.png)
+
+
+* Pero también podemos indicar la pendiente con el argumeto *slope*
+
+
+```python
+m = r.slope
+
+s = Line(A,slope=m)
+pprint(Eq(s.equation(),0))
+```
+
+    -x + y - 2 = 0
+
+
+
+```python
+s.direction
+```
+
+
+
+
+    Point2D(1, 1)
+
+
+
+### (Avanzado) Función para importar rectas desde $\LaTeX$
+
+El siguiente código permite manejar ecuaciones de recta en código LaTeX
+
+
+```python
+from sympy.parsing.latex import parse_latex
+
+def Linea(expr) :
+    eq = eval(str(parse_latex(expr)))
+    p1 = Point(0,nsimplify(solve(Eq(eq.args[0].subs(x,0),eq.args[1].subs(x,0)),y)[0]))
+    p2 = Point(1,nsimplify(solve(Eq(eq.args[0].subs(x,1),eq.args[1].subs(x,1)),y)[0]))
+    
+    return Line(p1,p2)
+
+r=Linea(r'3x+2y+8=0')
+pprint(r.equation())
+```
+
+    3⋅x        
+    ─── + y + 4
+     2         
+
+
 ## Usando el modulo Vector
 
 Podemos usar el módulo *Vector*. Es un poco más complicado de usar porque hay que genera un sistemar de coordenadas, pero es más potente.

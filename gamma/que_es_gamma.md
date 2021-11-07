@@ -39,8 +39,18 @@ Enlace a **Sympy Gama**: [https://gamma.sympy.org/](https://gamma.sympy.org/)
 - Competencia del siglo xxi
 - Pensamiento computacional
 - Iniciación a Ciencia de Datos
-- Las máquinas calculan mejor que los humanos
+- Las máquinas calculan mejor que los humnos
 - ...
+
+# Por qué usar Sympy
+
+- Es software libre y todo lo que ello conlleva
+- Es una biblioteca Python
+
+# Agradecimientos
+
+- A la comunidad Sympy
+- A la comunidad Python
 
 
 
